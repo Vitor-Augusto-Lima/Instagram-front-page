@@ -20,11 +20,11 @@ body {
 
 
 .first-container {
-    width: 60%;
+    width: 90%;
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
 }
 
 .phone-image {
@@ -32,9 +32,12 @@ body {
     width: 50%;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .phone-image img {
+    display: flex;
     height: 50rem;
 }
 
@@ -44,7 +47,7 @@ body {
     justify-content: space-around;
     flex-direction: column;
     width: 50%;
-    min-height: 34rem;
+    min-height: 40rem;
 }
 
 .instagram-container {
@@ -53,12 +56,55 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    background-color: #fff;
+}
+
+.instagram-container label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60%;
+    
+}
+
+.instagram-container input, button {
+    margin-top: 5%;
+    padding: 3% 2% 2% 2%;
+    font-weight: bold;
+}
+
+.instagram-container button {
+    color: #fff;
+    background-color: #65b8db;
+    opacity: 0.7;
+    border: none;
+    border-radius: 3%;
+}
+
+.facebook-and-password {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 2%;
 }
 
 .facebook-and-password img{
-    width: 3%;
-    height: 3%;
+    width: 6%;
+    height: 6%;
+    padding-right: 1%;
 }
+
+.facebook-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+
 
 .instagram-apps a img {
     width: 40%;
