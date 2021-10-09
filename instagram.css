@@ -29,7 +29,7 @@ body {
 
 .phone-image {
     display: flex;
-    width: 50%;
+    width: 40%;
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -38,6 +38,7 @@ body {
 
 .phone-image img {
     display: flex;
+    width: 200%;
     height: 50rem;
 }
 
@@ -46,7 +47,7 @@ body {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     min-height: 40rem;
 }
 
@@ -61,18 +62,24 @@ body {
     background-color: #fff;
 }
 
+.instagram-container img {
+    width: 45%;
+    height: 50%;
+    margin: 5% 0 5% 0;
+}
+
 .instagram-container label {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 60%;
+    width: 75%;
     
 }
 
 .instagram-container input, button {
     margin-top: 5%;
-    padding: 3% 2% 2% 2%;
-    font-weight: bold;
+    padding: 3% 2% 3% 2%;
+    border: lightgray 1px solid;
 }
 
 .instagram-container button {
@@ -81,6 +88,13 @@ body {
     opacity: 0.7;
     border: none;
     border-radius: 3%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.instagram-container p a {
+    color: #0095f6;
+    font-weight: bold;
 }
 
 .facebook-and-password {
@@ -97,16 +111,44 @@ body {
     padding-right: 1%;
 }
 
+.facebook-and-password a {
+    color: #00376b;
+    font-size: 12px;
+}
+
 .facebook-img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
 }
 
+.facebook-img a {
+    color: #385185;
+    font-size: 13px;
+    font-weight: 550;
+}
 
+.instagram-apps {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
 
-.instagram-apps a img {
-    width: 40%;
-    height: 40%;
+.download {
+    height: 3rem;
+    width: 10.2rem;
+    background-size: cover;
+}
+
+.download:nth-child(1) {
+    background: url('img/apple-button.png');
+    background-size: cover;
+}
+
+.download:nth-child(2) {
+    background: url("img/googleplay-button.png");
+    background-size: cover;
 }
